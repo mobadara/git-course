@@ -85,6 +85,16 @@ The basic settings to get working with `git` are:
     git add -h
     ```
 
+## **Initializing a Repository in a project Directory**
+- To track your project with git, you need to make git know about your project. You can make your project a git repository by doing one of the following:
+    - Initializing a git repository in your project directory
+    - Cloning an existing repository
+- In this section, we will discuss initializing a git repository in your root project directory. 
+- In your root project directory (`cd` into your project's root directory), use the command
+    ```bash
+    git init
+    ```
+    to initialize a git repository. This will create a hidden directory named  `.git` your project's root directory and this is the folder where everything that has to do with `git` is stored.
 ___
 Muyiwa J. Obadara
 
