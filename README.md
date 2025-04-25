@@ -89,12 +89,43 @@ The basic settings to get working with `git` are:
 - To track your project with git, you need to make git know about your project. You can make your project a git repository by doing one of the following:
     - Initializing a git repository in your project directory
     - Cloning an existing repository
+### **Initializing a `git` Repository**
 - In this section, we will discuss initializing a git repository in your root project directory. 
 - In your root project directory (`cd` into your project's root directory), use the command
     ```bash
     git init
     ```
     to initialize a git repository. This will create a hidden directory named  `.git` your project's root directory and this is the folder where everything that has to do with `git` is stored.
+
+### **Clonig an existing repository**
+- You can clone an existing repository using
+    ```bash
+    git clone https://github.com/<username>/<repo.git>
+    ```
+- This will copy everything about the project including snapshots of versions a folder named <repo> in your current directory where you run the `git clone` command. You can then `cd` into the directory and start working. **Be sure to edit the command to raname the username and the reponame. The angular brackets are not included. Example ```git clone https://github.com/mobadara/git-course.git```**
+
+## **Managing files in your repository**
+- Now that you have a repository (initialized or cloned), `cd` into the repository and start creating your project files and directory normally.
+- Imagine you have two files in your project directory `index.js`, `index.html` with an hidden `.git` directory, you want to inform `git` about the two files. Use the command
+    ```bash
+    git add index.js
+    git add index.html
+    ```
+- You have added the two files to the staging area of the repository. At this point, you need to commit your changes. This can be achieved by the command
+    ```bash
+    git commit -m "I just made a change to the index files"
+    ```
+- The `"I just made a change to the index` files" is call a commit message and can be any string as long as it describes why you committed.
+- Finally, you push your changes to a remote repository. You need to inform your local repository (`git`) about your remote repository. You can register many remote repository with one local repository as long as they have different name reference. You will need to create a repository on your remote repository provider at this point and name it according to your project. Common remote repositories are [GitHub](https://github.com) and [Bitbucket](https://bitbucket.org). The name "origin" is commonly used to reference our first remote repository in our local repository. Register your first remote repository with the command:
+    ```bash
+    git remote add origin https://github.com/<remote-repo-username>/<remote-repo-name>.git
+    ```
+- With that done successfully, use the command below to send your project to the remote repository you registered above.
+    ```bash
+    git push -u origin main
+    ```
+    where `origin` and `main` above are the remote repository reference key and branch name respectively. Recall that you set your default branch name to `main`. Now, on a web browser, visit your remote repository landing page and find a copy of your project.
+
 ___
 Muyiwa J. Obadara
 
