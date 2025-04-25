@@ -1,5 +1,9 @@
 [![Last Updated](https://img.shields.io/github/last-commit/mobadara/git-course)](https://github.com/mobadara/git-course)
 
+#### Follow Me: 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/249px-Logo_of_Twitter.svg.png" alt="X (Twitter) logo" width="20" height="20"> [X (formerly Twitter)](https://twitter.com/M_Obadara)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" alt="LinkedIn logo" width="20" height="20"> [LinkedIn](https://www.linkedin.com/in/muyiwaobadara)
+
 # **A Refresher Course on `git`**
 Git is the most widely used distributed version control system today. It is known for its speed, flexibility and robust features.
 
