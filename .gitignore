@@ -1,0 +1,15 @@
+# Temporary files
+*~
+*.swp
+*.tmp
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+*.pyc  # Python bytecode
+__pycache__/ # Python cache directory
+
+# OS generated files
+.DS_Store
+Thumbs.db
