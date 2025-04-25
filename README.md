@@ -48,7 +48,7 @@ The basic settings to get working with `git` are:
     git config --global init.defaultBranch main
     ```
 
-    > There are other commands such as setting up your default text editors. If you used the windows installer during installation, you would have notices that some of these settings were made during the installation setup.
+    > There are other commands such as setting up your default text editors. If you used the windows installer during installation, you would have noticed that some of these settings were made during the installation setup.
 
 - **Preview the Current Settings**: You can view your current settings using:
         
