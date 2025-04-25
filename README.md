@@ -55,11 +55,35 @@ The basic settings to get working with `git` are:
     ```bash
     git config --list
     ```
-    - You can also check the value in a key by using the command
+    - You can also check the value in a key by using the command below, for example, you want to see the current value stored in the `user.name` key.
     ```bash
     git config user.name
     ```
 
+## **Getting help with `git` commands**
+- For every command line tool, there is a `help` utility which explins how the tool is used. Anyone of the following commands can be used to quary the help utility of `git`.
+    
+    ```bash
+    git help <verb>
+    ```
+
+    or
+
+    ```bash
+    git verb --help
+    ```
+
+    For example, to get the manpage help for the `git add` command, run:
+
+    ```bash
+    git  help add
+    ```
+
+    or
+
+    ```bash
+    git add -h
+    ```
 
 ___
 Muyiwa J. Obadara
