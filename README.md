@@ -16,7 +16,7 @@ For this tutorial, it is assumed you have basic knowledge of the <code>terminal<
     ```bash
     sudo dnf install git
     ```
-- Aech Linux
+- Arch Linux
     ```bash
     sudo pacman -S git
     ```
