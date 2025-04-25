@@ -55,6 +55,11 @@ The basic settings to get working with `git` are:
     ```bash
     git config --list
     ```
+    - You can also check the value in a key by using the command
+    ```bash
+    git config user.name
+    ```
+
 
 ___
 Muyiwa J. Obadara
