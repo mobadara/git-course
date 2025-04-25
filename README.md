@@ -21,7 +21,7 @@ For this tutorial, it is assumed you have basic knowledge of the <code>terminal<
     sudo pacman -S git
     ```
 - On Windows: [Click here](https://git-scm.com/download/win)
-- On Linux: [Click here](https://git-scm.com/download/mac)
+- On Mac: [Click here](https://git-scm.com/download/mac)
 
 ## **Verify your installation**
 If the command is not found, install `git` using onw of the methods outlined above.
